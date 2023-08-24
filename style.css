@@ -1,0 +1,83 @@
+
+*{
+    margin: 0px ;
+    padding: 0px;
+    cursor: pointer;
+    box-sizing: border-box;
+    
+    background-color: gray;
+    background-image: url(./imagecontainer/download.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   background-size: cover;
+    
+ 
+    
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: chartreuse;
+    
+}
+ul{
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+    list-style: none;
+}
+ body main {
+    width: 100% ;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+
+    
+} 
+div{
+    height: 50px ;
+    width: 300pxpx;
+    font-size: 30px;
+    
+}
+#clock{
+    margin-left: 20px;
+    font-weight: 400;
+    font-style: italic;
+    color: aquamarine;
+}
+
+
+#hour::after{
+    content: " :hours";
+    
+}
+#min::after{
+    content: ":minute";
+}
+#second::after{
+    content: ":second";
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 60px;
+}
+.footer{
+    font-size: 25px ;
+    font-weight: 800;
+    color: white;
+}
+#AboutDeveloper{
+    margin-left: 70px;
+    font-weight: 800;
+    font-size: 25px;
+    color: crimson;
+}
